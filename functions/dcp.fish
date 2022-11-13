@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/pause/
 
 function dcp -d "Pause services."
-  docker-compose pause $argv
+  docker compose pause $argv
 end

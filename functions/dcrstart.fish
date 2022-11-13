@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/restart/
 
 function dcrstart -d "Restart services."
-  docker-compose restart $argv
+  docker compose restart $argv
 end

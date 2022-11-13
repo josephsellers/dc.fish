@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/stop/
 
 function dcstop -d "Stop services."
-  docker-compose stop $argv
+  docker compose stop $argv
 end

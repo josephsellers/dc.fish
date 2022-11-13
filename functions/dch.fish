@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/help/
 
 function dch -d "Get help on a command."
-  docker-compose help $argv
+  docker compose help $argv
 end

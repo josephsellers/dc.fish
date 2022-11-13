@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/start/
 
 function dcstart -d "Start services."
-  docker-compose start $argv
+  docker compose start $argv
 end

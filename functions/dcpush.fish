@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/push/
 
 function dcpush -d "Push service images."
-  docker-compose push $argv
+  docker compose push $argv
 end

@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/unpause/
 
 function dcunp -d "Unpause services."
-  docker-compose unpause $argv
+  docker compose unpause $argv
 end

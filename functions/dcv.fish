@@ -6,5 +6,5 @@
 # Information   : N/A
 
 function dcv -d "Show the version information."
-  docker-compose version
+  docker compose version
 end

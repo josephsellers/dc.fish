@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/top/
 
 function dctop -d "Display the running processes."
-  docker-compose top $argv
+  docker compose top $argv
 end

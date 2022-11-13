@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/run/
 
 function dcrun -d "Run a one-off command."
-  docker-compose run $argv
+  docker compose run $argv
 end

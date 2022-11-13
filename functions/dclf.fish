@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/logs/
 
 function dclf -d "Show logs and follow output."
-  docker-compose logs -f $argv
+  docker compose logs -f $argv
 end

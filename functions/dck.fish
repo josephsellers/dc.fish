@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/kill/
 
 function dck -d "Kill containers."
-  docker-compose kill $argv
+  docker compose kill $argv
 end

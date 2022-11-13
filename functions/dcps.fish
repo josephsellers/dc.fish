@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/ps/
 
 function dcps -d "List containers."
-  docker-compose ps $argv
+  docker compose ps $argv
 end

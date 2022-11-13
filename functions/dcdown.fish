@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/down/
 
 function dcdown -d "Stop and remove containers, networks, images, and volumes."
-  docker-compose down $argv
+  docker compose down $argv
 end

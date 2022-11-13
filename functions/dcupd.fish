@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/up/
 
 function dcupd -d "Create and start containers in the background."
-  docker-compose up -d $argv
+  docker compose up -d $argv
 end

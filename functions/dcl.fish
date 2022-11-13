@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/logs/
 
 function dcl -d "View output from containers."
-  docker-compose logs $argv
+  docker compose logs $argv
 end

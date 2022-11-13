@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/build/
 
 function dcb -d "Build or rebuild services."
-  docker-compose build $argv
+  docker compose build $argv
 end

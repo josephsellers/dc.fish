@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/events/
 
 function dcev -d "Receive real time events from containers."
-  docker-compose events $argv
+  docker compose events $argv
 end

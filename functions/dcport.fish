@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/port/
 
 function dcport -d "Print the public port for a port binding."
-  docker-compose port $argv
+  docker compose port $argv
 end

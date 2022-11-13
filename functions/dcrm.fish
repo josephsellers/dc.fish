@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/rm/
 
 function dcrm -d "Remove stopped containers."
-  docker-compose rm $argv
+  docker compose rm $argv
 end

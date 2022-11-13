@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/images/
 
 function dci -d "List images (display IDs)."
-  docker-compose images $argv
+  docker compose images $argv
 end

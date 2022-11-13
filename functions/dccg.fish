@@ -6,5 +6,5 @@
 # Information   : https://docs.docker.com/compose/reference/config/
 
 function dccg -d "Validate and view the Compose file."
-  docker-compose config $argv
+  docker compose config $argv
 end
