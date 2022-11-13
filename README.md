@@ -2,7 +2,7 @@
 
 #### plugin-docker compose
 
-> A [Docker Compose][dc-link] aliases plugin for [Oh My Fish][omf-link] based loosely on the [Oh My Zsh Docker Compose Plugin][omz-plugin].
+> A [Docker Compose][dc-link] aliases plugin forked from [demartini/dc.fish](https://github.com/demartini/dc.fish) to update from 'docker-compose' to 'docker compose' which has been used since [Docker Compose V2](https://docs.docker.com/compose/compose-v2/).
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v3.0.2-007EC7.svg?style=flat-square)](https://fishshell.com)
@@ -11,17 +11,10 @@
 <br/>
 
 ## Install
-
-With [Oh My Fish][omf-link]
-
-```fish
-$ omf install https://github.com/demartini/plugin-docker compose
-```
-
 With [fisher][fisher-link]
 
 ```fish
-$ fisher add demartini/plugin-docker compose
+$ fisher add josephsellers/dc.fish
 ```
 
 ## Usage
@@ -63,13 +56,4 @@ $ fisher add demartini/plugin-docker compose
 
 # License
 
-[MIT][mit] © [Iolar Demartini Junior][author] et [al][contributors]
-
-[mit]: https://opensource.org/licenses/MIT
-[author]: https://github.com/demartini
-[contributors]: https://github.com/demartini/plugin-docker compose/graphs/contributors
-[omf-link]: https://www.github.com/oh-my-fish/oh-my-fish
-[omz-plugin]: https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins
-[fisher-link]: https://github.com/jorgebucaran/fisher
-[dc-link]: https://docs.docker.com/compose/
-[license-badge]: https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
+[MIT][mit]
