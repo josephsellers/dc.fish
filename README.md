@@ -2,7 +2,7 @@
 
 #### plugin-docker compose
 
-> A [Docker Compose][dc-link] aliases plugin forked from [demartini/dc.fish](https://github.com/demartini/dc.fish) to update from 'docker-compose' to 'docker compose' which has been used since [Docker Compose V2](https://docs.docker.com/compose/compose-v2/).
+> A [Docker Compose](https://github.com/docker/compose) aliases plugin forked from [demartini/dc.fish](https://github.com/demartini/dc.fish) to update from 'docker-compose' to 'docker compose' which has been used since [Docker Compose V2](https://docs.docker.com/compose/compose-v2/).
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v3.0.2-007EC7.svg?style=flat-square)](https://fishshell.com)
@@ -56,4 +56,4 @@ $ fisher add josephsellers/dc.fish
 
 # License
 
-[MIT][mit]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
