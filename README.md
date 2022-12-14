@@ -14,7 +14,7 @@
 With [fisher][fisher-link]
 
 ```fish
-$ fisher add josephsellers/dc.fish
+fisher install josephsellers/dc.fish
 ```
 
 ## Usage
