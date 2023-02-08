@@ -11,7 +11,7 @@
 <br/>
 
 ## Install
-With [fisher][fisher-link]
+With [fisher](https://github.com/jorgebucaran/fisher):
 
 ```fish
 fisher install josephsellers/dc.fish
